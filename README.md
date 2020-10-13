@@ -37,3 +37,7 @@ Here's what we need to be able to do.
   - `Mechanic#car_owners` Get a list of all the car owners that go to a specific mechanic
 
   - `Mechanic#car_owners_names` Get a list of the names of all car owners who go to a specific mechanic
+
+
+
+  CarOwner --< Cars >-- Mechanics
