@@ -7,7 +7,10 @@ class Car
   end
 
   def self.classifications
-    @@all.map {|car| car.classification}.uniq
+    classifications = @@all.map do |car| 
+      car.classification
+    end
+    classifications.uniq
   end
 
   def self.find_mechanics(classification)
